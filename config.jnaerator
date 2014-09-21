@@ -1,0 +1,12 @@
+-I "./xcb/"
+
+-library xcb "./xcb/xcb.h"
+         
+-runtime JNA
+-reification
+-scalaStructSetters
+-mode Directory
+
+-o src/main/java
+-v
+-f
